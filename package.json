@@ -1,0 +1,26 @@
+{
+  "name": "custom-calendar-timeline",
+  "version": "0.1.0",
+  "description": "Plugin Obsidian pour afficher une timeline personnalisée basée sur un calendrier fictif.",
+  "main": "main.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "ChaosLayer",
+  "license": "ISC",
+  "dependencies": {
+    "obsidian": "^1.1.9",
+    "d3": "^7.8.5"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@types/d3": "^7.4.3",
+    "@types/node": "^18.11.18",
+    "rollup": "^3.12.1",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.9.5"
+  }
+}
