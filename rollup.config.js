@@ -1,5 +1,3 @@
-// rollup.config.js
-
 const typescript = require('rollup-plugin-typescript2');
 const resolve = require('@rollup/plugin-node-resolve').nodeResolve;
 const commonjs = require('@rollup/plugin-commonjs');
@@ -20,7 +18,10 @@ module.exports = {
     typescript({
       tsconfig: "./tsconfig.json",
     }),
-    resolve(),
+    resolve({
+      browser: true,        // Résoudre les modules pour le navigateur
+      preferBuiltins: false // Éviter les modules intégrés de Node.js
+    }),
     commonjs(),
   ],
 };
