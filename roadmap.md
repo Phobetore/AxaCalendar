@@ -1,272 +1,239 @@
-# Feuille de Route
+# Roadmap
 
-## Phase 1 : Mise en Place des Fondations
-**Objectif :** Établir les bases du plugin avec les fonctionnalités essentielles, en mettant l'accent sur le support complet de votre calendrier personnalisé.
+## Phase 1: Laying the Foundations
+**Objective:** Establish the core of the plugin with essential features, focusing on full support for a custom calendar.
 
-### Étape 1.1 : Modélisation du Calendrier Personnalisé
-**Actions :**
-- Définir précisément les caractéristiques du calendrier personnalisé :
-  - **Unités de Temps :** Nombre de jours par semaine, semaines par mois, mois par année, années par âge.
-  - **Noms Personnalisés :** Noms des jours, des mois, des années, des âges.
-  - **Durées Spécifiques :** Gestion des années bissextiles, jours intercalaires, etc.
-- Créer un modèle de données reflétant ces caractéristiques.
+### Step 1.1: Custom Calendar Modeling
+**Actions:**
+- Define the precise characteristics of the custom calendar:
+  - **Time Units:** Number of days per week, weeks per month, months per year, years per age.
+  - **Custom Names:** Names for days, months, years, and ages.
+  - **Specific Durations:** Manage leap years, intercalary days, etc.
+- Create a data model reflecting these characteristics.
 
-**Résultats :**
-- Un modèle solide du calendrier personnalisé, prêt à être utilisé dans le développement.
-
----
-
-### Étape 1.2 : Choix des Technologies et Configuration de l'Environnement
-**Actions :**
-- Sélectionner les technologies appropriées :
-  - **Framework UI :** Par exemple, React, Vue.js ou Svelte, compatibles avec Obsidian.
-  - **Bibliothèque de Calendrier :** Évaluer si une bibliothèque existante peut être adaptée ou si une solution sur mesure est nécessaire.
-- Configurer l'environnement de développement avec les outils choisis.
-
-**Résultats :**
-- Un environnement de développement prêt avec les outils et dépendances installés.
+**Outcomes:**
+- A robust model of the custom calendar, ready for use in development.
 
 ---
 
-### Étape 1.3 : Affichage du Calendrier Personnalisé
-**Actions :**
-- Développer l'interface du calendrier reflétant votre système personnalisé :
-  - **Vue Mensuelle :** Afficher correctement les jours, semaines, et mois personnalisés.
-  - **Navigation Basique :** Permettre la navigation entre les mois et les années.
+### Step 1.2: Technology Selection and Environment Setup
+**Actions:**
+- Choose appropriate technologies:
+  - **UI Framework:** For example, React, Vue.js, or Svelte, compatible with Obsidian.
+  - **Calendar Library:** Evaluate whether an existing library can be adapted or if a custom solution is necessary.
+- Set up the development environment with the chosen tools.
 
-**Résultats :**
-- Un calendrier fonctionnel affichant correctement votre système de temps.
-
----
-
-### Étape 1.4 : Gestion Basique des Événements
-**Actions :**
-- Implémenter la création et l'affichage d'événements :
-  - **Création d'Événements :** Interface pour ajouter des événements à des dates spécifiques.
-  - **Affichage des Événements :** Indicateurs visuels sur les dates avec événements.
-  - **Détails des Événements :** Afficher les détails lors du clic sur un événement.
-
-**Résultats :**
-- Les utilisateurs peuvent ajouter et consulter des événements dans le calendrier personnalisé.
+**Outcomes:**
+- A ready-to-use development environment with tools and dependencies installed.
 
 ---
 
-### Étape 1.5 : Intégration avec Obsidian
-**Actions :**
-- Intégrer le plugin dans Obsidian :
-  - **Commandes :** Ajouter des commandes pour ouvrir le calendrier.
-  - **Styles :** Adapter le design pour correspondre au thème d'Obsidian.
-  - **Stockage des Données :** Décider où et comment les données seront stockées (fichiers Markdown, base de données locale, etc.).
+### Step 1.3: Displaying the Custom Calendar
+**Actions:**
+- Develop a calendar interface reflecting the custom system:
+  - **Monthly View:** Correctly display days, weeks, and custom months.
+  - **Basic Navigation:** Allow navigation between months and years.
 
-**Résultats :**
-- Un plugin accessible depuis Obsidian, avec une apparence cohérente.
-
----
-
-## Phase 2 : Amélioration de l'Expérience Utilisateur
-**Objectif :** Optimiser l'interface et ajouter des fonctionnalités pour améliorer l'expérience utilisateur.
-
-### Étape 2.1 : Navigation Avancée
-**Actions :**
-- Ajouter des fonctionnalités de navigation :
-  - **Vues Multiples :** Intégrer des vues journalière, hebdomadaire, annuelle, et par âge.
-  - **Navigation Rapide :** Sélecteurs pour les âges, années, mois, avec possibilité de sauter directement à une date spécifique.
-
-**Résultats :**
-- Une navigation fluide et intuitive à travers le calendrier.
+**Outcomes:**
+- A functional calendar that correctly displays the custom time system.
 
 ---
 
-### Étape 2.2 : Personnalisation de l'Interface
-**Actions :**
-- Permettre aux utilisateurs de personnaliser l'apparence :
-  - **Thèmes et Couleurs :** Options pour changer les couleurs, polices, et styles.
-  - **Disposition :** Choix entre différentes dispositions de calendrier.
+### Step 1.4: Basic Event Management
+**Actions:**
+- Implement event creation and display:
+  - **Event Creation:** Interface for adding events to specific dates.
+  - **Event Display:** Visual indicators on dates with events.
+  - **Event Details:** Show details when clicking on an event.
 
-**Résultats :**
-- Une interface adaptable aux préférences des utilisateurs.
-
----
-
-### Étape 2.3 : Gestion Avancée des Événements
-**Actions :**
-- Ajouter des fonctionnalités aux événements :
-  - **Événements Récurrents :** Supporter les répétitions selon votre système de temps.
-  - **Catégories et Étiquettes :** Classer les événements pour un meilleur filtrage.
-  - **Pièces Jointes :** Permettre l'ajout de fichiers ou de liens vers des notes Obsidian.
-
-**Résultats :**
-- Une gestion des événements plus riche et flexible.
+**Outcomes:**
+- Events can be added and viewed in the custom calendar.
 
 ---
 
-### Étape 2.4 : Recherche et Filtrage
-**Actions :**
-- Implémenter des outils de recherche :
-  - **Barre de Recherche :** Trouver des événements par mots-clés.
-  - **Filtres :** Filtrer par catégorie, date, étiquette, etc.
+### Step 1.5: Integration with Obsidian
+**Actions:**
+- Integrate the plugin into Obsidian:
+  - **Commands:** Add commands to open the calendar.
+  - **Styles:** Adapt the design to match Obsidian's theme.
+  - **Data Storage:** Decide where and how data will be stored (Markdown files, local database, etc.).
 
-**Résultats :**
-- Les utilisateurs peuvent rapidement trouver les événements importants.
-
----
-
-### Étape 2.5 : Optimisation des Performances
-**Actions :**
-- Améliorer les performances du plugin :
-  - **Chargement Asynchrone :** Charger les données en arrière-plan.
-  - **Pagination ou Virtualisation :** Gérer efficacement l'affichage lors de grandes quantités de données.
-
-**Résultats :**
-- Un plugin rapide et réactif, même avec de nombreux événements.
+**Outcomes:**
+- A plugin accessible within Obsidian, with a consistent appearance.
 
 ---
 
-## Phase 3 : Intégration Avancée et Fonctionnalités Supplémentaires
-**Objectif :** Étendre les fonctionnalités du plugin et améliorer son intégration avec Obsidian et d'autres outils.
+## Phase 2: Enhancing the User Experience
+**Objective:** Optimize the interface and add features to improve the user experience.
 
-### Étape 3.1 : Lien avec les Notes Obsidian
-**Actions :**
+### Step 2.1: Advanced Navigation
+**Actions:**
+- Add navigation features:
+  - **Multiple Views:** Integrate daily, weekly, yearly, and age-based views.
+  - **Quick Navigation:** Selectors for ages, years, months, with the ability to jump directly to a specific date.
 
-- Associer des événements à des notes :
-  - **Backlinks Automatiques :** Créer des liens bidirectionnels entre les événements et les notes.
-  - **Affichage Intégré :** Voir un aperçu des notes liées directement dans le calendrier.
-
-**Résultats :**
-Une intégration profonde avec le système de notes d'Obsidian.
-
----
-
-### Étape 3.2 : Notifications et Rappels
-**Actions :**
-- Ajouter des rappels pour les événements :
-  - **Notifications Internes :** Alertes au sein d'Obsidian.
-  - **Intégration Système :** Option pour des notifications système (si supporté par Obsidian).
-
-**Résultats :**
-- Les utilisateurs sont avertis des événements importants à venir.
+**Outcomes:**
+- Smooth and intuitive navigation through the calendar.
 
 ---
 
-### Étape 3.3 : Exportation et Importation
-**Actions :**
-- Permettre l'échange de données :
-  - **Exportation en Formats Standards :** Formats comme `.ics` ou `.csv`.
-  - **Importation de Données :** Importer des événements depuis d'autres calendriers tout en respectant le système personnalisé.
+### Step 2.2: Interface Customization
+**Actions:**
+- Allow customization of the interface:
+  - **Themes and Colors:** Options to change colors, fonts, and styles.
+  - **Layout Options:** Choose between different calendar layouts.
 
-**Résultats :**
-- Une meilleure interopérabilité avec d'autres applications et services.
-
----
-
-### Étape 3.4 : Accessibilité et Internationalisation
-**Actions :**
-- Rendre le plugin accessible à tous :
-  - **Support Multilingue :** Traduire l'interface selon les besoins.
-  - **Normes d'Accessibilité :** Compatibilité avec les lecteurs d'écran, navigation au clavier.
-
-**Résultats :**
-- Un plugin inclusif, utilisable par un public plus large.
+**Outcomes:**
+- An interface adaptable to individual preferences.
 
 ---
 
-## Phase 4 : Personnalisation Avancée et Innovations
-**Objectif :** Offrir des fonctionnalités avancées et innovantes pour enrichir l'expérience utilisateur.
+### Step 2.3: Advanced Event Management
+**Actions:**
+- Add advanced event features:
+  - **Recurring Events:** Support repetitions according to the custom time system.
+  - **Categories and Tags:** Classify events for better filtering.
+  - **Attachments:** Allow adding files or links to Obsidian notes.
 
-### Étape 4.1 : Automatisation et Scripts
-**Actions :**
-- Permettre l'automatisation :
-  - **API Interne :** Fournir des méthodes pour interagir avec le plugin via des scripts Obsidian.
-  - **Intégration avec d'Autres Plugins :** Comme Templater ou Dataview pour des fonctionnalités avancées.
-
-**Résultats :**
-- Les utilisateurs avancés peuvent personnaliser davantage le plugin.
+**Outcomes:**
+- Richer and more flexible event management.
 
 ---
 
-### Étape 4.2 : Visualisations et Statistiques
-**Actions :**
-- Ajouter des outils d'analyse :
-  - **Statistiques d'Utilisation :** Nombre d'événements par mois, catégories les plus utilisées, etc.
-  - **Visualisations Graphiques :** Graphiques ou diagrammes pour représenter les données du calendrier.
+### Step 2.4: Search and Filtering
+**Actions:**
+- Implement search tools:
+  - **Search Bar:** Find events by keywords.
+  - **Filters:** Filter by category, date, tag, etc.
 
-**Résultats :**
-- Les utilisateurs obtiennent des insights sur leur utilisation du temps.
-
----
-
-### Étape 4.3 : Intelligence Artificielle et Suggestions
-**Actions :**
-- Intégrer des fonctionnalités intelligentes :
-  - **Suggestions Automatiques :** Proposer des dates pour de nouveaux événements en fonction des habitudes.
-  - **Analyse du Texte des Notes :** Extraire des événements potentiels des notes existantes.
-
-**Résultats :**
-- Une expérience utilisateur enrichie grâce à des fonctionnalités proactives.
+**Outcomes:**
+- Quick and efficient search for important events.
 
 ---
 
-## Considérations Générales
+### Step 2.5: Performance Optimization
+**Actions:**
+- Improve plugin performance:
+  - **Asynchronous Loading:** Load data in the background.
+  - **Pagination or Virtualization:** Efficiently manage display with large data sets.
 
-### Documentation et Support
-- **Documentation Complète :** Rédiger une documentation claire à chaque phase.
-- **Tutoriels :** Fournir des guides ou des vidéos explicatives.
-
-### Tests et Qualité
-- **Tests Unitaires et Fonctionnels :** Assurer la fiabilité à chaque étape.
-- **Tests d'Utilisabilité :** Impliquer des utilisateurs réels pour des retours concrets.
-
-### Feedback Utilisateur
-- **Sondages et Retours :** Recueillir régulièrement les avis des utilisateurs pour orienter les améliorations.
-
-### Gestion de Projet
-- **Outils de Gestion :** Utiliser des outils comme Trello ou GitHub Projects.
-- **Définition de Jalons :** Fixer des échéances pour chaque phase.
+**Outcomes:**
+- A fast and responsive plugin, even with numerous events.
 
 ---
 
-## Priorisation des Fonctionnalités
+## Phase 3: Advanced Integration and Additional Features
+**Objective:** Extend the plugin's features and enhance its integration with Obsidian and other tools.
 
-### Fonctionnalités Essentielles (Phases 1 & 2)
-- Support complet du calendrier personnalisé.
-- Gestion basique des événements.
-- Navigation intuitive.
+### Step 3.1: Linking with Obsidian Notes
+**Actions:**
+- Associate events with notes:
+  - **Automatic Backlinks:** Create bidirectional links between events and notes.
+  - **Integrated Display:** View a preview of linked notes directly in the calendar.
 
-### Fonctionnalités Importantes (Phase 3)
-- Intégration avancée avec Obsidian.
-- Notifications et rappels.
-- Recherche et filtrage avancés.
-
-### Fonctionnalités Optionnelles/Avancées (Phase 4)
-- Automatisation et scripts.
-- Visualisations avancées.
-- Fonctions d'intelligence artificielle.
+**Outcomes:**
+- Deep integration with Obsidian's note system.
 
 ---
 
-## Adaptation au Calendrier Personnalisé
+### Step 3.2: Notifications and Reminders
+**Actions:**
+- Add reminders for events:
+  - **Internal Notifications:** Alerts within Obsidian.
+  - **System Integration:** Option for system notifications (if supported by Obsidian).
 
-### Conversion des Dates
-- Développer des algorithmes pour convertir les dates du calendrier personnalisé en dates système.
-
-### Affichage Personnalisé
-- Assurer l'affichage correct des jours, mois, années, et âges.
-
-### Calcul des Récurrences
-- Adapter la logique des événements récurrents au système de temps unique.
+**Outcomes:**
+- Proactive management of important events.
 
 ---
 
-## Prochaines Étapes
+### Step 3.3: Export and Import
+**Actions:**
+- Enable data exchange:
+  - **Export to Standard Formats:** Formats like `.ics` or `.csv`.
+  - **Data Import:** Import events from other calendars while respecting the custom system.
 
-### Planification Détaillée
-- Pour chaque étape, définir les tâches spécifiques, les ressources nécessaires, et les délais.
+**Outcomes:**
+- Better interoperability with other applications and services.
 
-### Développement du Prototype
-- Commencer par les fonctionnalités essentielles pour avoir un produit minimum viable.
+---
 
-### Tests Utilisateurs
-- Impliquer des utilisateurs potentiels pour tester le prototype et fournir des retours.
+### Step 3.4: Accessibility and Internationalization
+**Actions:**
+- Make the plugin accessible to everyone:
+  - **Multilingual Support:** Translate the interface as needed.
+  - **Accessibility Standards:** Compatibility with screen readers, keyboard navigation.
 
-### Itération
-- Améliorer le plugin en fonction des retours pour passer aux phases suivantes.
+**Outcomes:**
+- An inclusive plugin usable by a wider audience.
+
+---
+
+## Phase 4: Advanced Customization and Innovations
+**Objective:** Offer advanced and innovative features to enrich the user experience.
+
+### Step 4.1: Automation and Scripts
+**Actions:**
+- Enable automation:
+  - **Internal API:** Provide methods to interact with the plugin via Obsidian scripts.
+  - **Integration with Other Plugins:** Like Templater or Dataview for advanced features.
+
+**Outcomes:**
+- Enhanced customization for advanced users.
+
+---
+
+### Step 4.2: Visualizations and Statistics
+**Actions:**
+- Add analysis tools:
+  - **Usage Statistics:** Number of events per month, most used categories, etc.
+  - **Graphical Visualizations:** Graphs or charts to represent calendar data.
+
+**Outcomes:**
+- Visual insights into calendar usage.
+
+---
+
+## General Considerations
+
+### Documentation and Support
+- **Complete Documentation:** Write clear documentation at each phase.
+- **Tutorials:** Provide guides or explanatory videos.
+
+### Testing and Quality
+- **Unit and Functional Tests:** Ensure reliability at every step.
+- **Usability Testing:** Involve real users for concrete feedback.
+
+### User Feedback
+- **Surveys and Feedback:** Regularly collect user opinions to guide improvements.
+
+---
+
+## Feature Prioritization
+
+### Essential Features (Phases 1 & 2)
+- Full support for the custom calendar.
+- Basic event management.
+- Intuitive navigation.
+
+### Important Features (Phase 3)
+- Advanced integration with Obsidian.
+- Notifications and reminders.
+- Advanced search and filtering.
+
+### Optional/Advanced Features (Phase 4)
+- Automation and scripts.
+- Advanced visualizations.
+
+---
+
+## Adapting to the Custom Calendar
+
+### Date Conversion
+- Develop algorithms to convert custom calendar dates to system dates.
+
+### Custom Display
+- Ensure correct display of days, months, years, and ages.
+
+### Recurrence Calculation
+- Adapt recurrence logic to the unique time system.
